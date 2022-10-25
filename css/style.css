@@ -83,7 +83,7 @@ a{
     color: white;
     text-decoration: none;
 }
-button{
+.column_header25 button{
     padding: 12px 15px;
     background-color: white;
     color: black;
@@ -96,28 +96,71 @@ button{
 /* main start */
 
 /* section 1 */
+
 .container_sect1{
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .row_sect1{
     margin: 0 auto;
-    height: 500px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 .column_sect1 {
-    height: 350px;
+    text-align: center;
+    color: white;
     width: 50%;
+    margin: 60px 0 120px 0;
+}
+.column_sect1 h1{
+    margin-top: 20px;
+    font-size: 50px;
+}
+.column_sect1 p{
+    margin: 30px 0 15px 0 ;
+    font: 20px;
+    line-height: 20px;
+}
+
+.button_black{
+    padding: 12px 18px;
+    border: transparent;
+    border-radius: 20px 20px;
+    background-color: black;
+    color: white;
+    
+}
+.button_white{
+    padding: 12px 18px;
+    border: transparent;
+    border-radius: 20px 20px;
+    background-color: white;
+    color: black;
+    
+}
+.button_blue{
+    padding: 12px 18px;
+    border: transparent;
+    border-radius: 20px 20px;
+    background-color: #8ea1e1;
+    color: white;
+    
+}
+
+.button_sect1 .button_white{
+    margin-right: 15px;
 }
 
 /* section 2  */
-
+.container_sect2{
+    margin: 50px 0 50px 0;
+}
 .row_sect2{
     max-width: 1000px;
-    height: 450px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -126,11 +169,20 @@ button{
 
 .column_sect2_left{
     width: 69%;
-    height: 400px ;
+}
+
+.item1{
+    height: 90%;
+    width: 90%;
 }
 .column_sect2_right{
     width: 30%;
     height: 400px ;
+    text-align:left;
+}
+.column_sect2_right h2{
+    font-size: 35px ;
+    margin: 40px 0 40px 0;
 }
 
 /* section 5 */
