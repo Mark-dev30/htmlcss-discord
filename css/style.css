@@ -274,9 +274,13 @@ a{
 }
 
 
-.column_sect6_second span{
+.color_li{
     color: #7188d9;
+}
+    
 
+.container_footer{
+    padding: 15px 0;
 }
 
 .row_footer{
@@ -289,9 +293,6 @@ a{
     border-top: solid 1px #2c3340;
 }
 
-.column_footer{
-    height: 40px;
-    width: 20%;
+.column-footer2{
+    text-align: center;
 }
-
-
