@@ -30,7 +30,7 @@
    background-color: black;
 }
 .grey{
-    background-color: grey;
+    background-color: #f6f6f6;
 }
 .white{
     background-color: white;
@@ -157,7 +157,7 @@ a{
 
 /* section 2  */
 .container_sect2{
-    margin: 50px 0 50px 0;
+    margin: 90px 0 0 0;
 }
 .row_sect2{
     max-width: 1000px;
@@ -172,8 +172,9 @@ a{
 }
 
 .item1{
-    height: 90%;
-    width: 90%;
+    height: 80%;
+    width: 80%;
+    margin: 10px;
 }
 .column_sect2_right{
     width: 30%;
@@ -197,8 +198,22 @@ a{
 }
 
 .column_sect5{
-    height: 800px;
     width: 100%;
+    text-align: center;
+    margin: 90px 0;
+}
+
+.column_sect5 h2{
+    font-size: 35px ;
+    margin: 40px 0 40px 0;
+}
+
+.column_sect5 h3{
+    font-size: 20px ;
+}
+
+.column_sect5 button{
+    margin: 20px 0;
 }
 
 /* section 6 */
