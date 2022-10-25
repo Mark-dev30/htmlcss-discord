@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* background border */
+.orange{
+    background-color: orange;
+}
+
+.lightblue{
+    background-color: lightblue;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.green{
+    background-color: green;
+}
+
+.black{
+   background-color: black;
+}
+.grey{
+    background-color: grey;
+}
+.white{
+    background-color: white;
+}
+
+.border{
+    border: 0.5px solid black;
+}
+
+
+
+/* header start */
+
+.row_header{
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column_header25, .column_header50{
+    height: 40px;
+}
+
+.column_header25{
+    width: 20%;
+    
+}
+.column_header50{
+    width: 59%;
+}
+/* header end */
+
+/* main start */
+
+/* section 1 */
+.row_sect1{
+    margin: 0 auto;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.column_sect1{
+    height: 350px;
+    width: 50%;
+}
+
+/* section 2  */
+
+.row_sect2{
+    max-width: 1000px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column_sect2_left{
+    width: 69%;
+    height: 400px ;
+}
+.column_sect2_right{
+    width: 30%;
+    height: 400px ;
+}
+
+/* section 5 */
+
+.row_sect5{
+    max-width: 1000px;
+    height: 850px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column_sect5{
+    height: 800px;
+    width: 100%;
+}
+
+/* section 6 */
+
+.row_sect6{
+    max-width: 1000px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column_sect6_first{
+    width: 30%;
+    height: 400px ;
+}
+.column_sect6_second{
+    width: calc(70%/4);
+    height: 400px;
+}
+
+/* footer */
+
+.row_footer{
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column_footer{
+    height: 40px;
+    width: 20%;
+}
+
+
