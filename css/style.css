@@ -223,7 +223,6 @@ a{
     height: 450px;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -232,8 +231,17 @@ a{
     height: 400px ;
 }
 .column_sect6_second{
+    
     width: calc(70%/4);
     height: 400px;
+}
+
+
+.footer_prodotto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 /* footer */
