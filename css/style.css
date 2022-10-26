@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
+body{
+    font-family: 'Whitney', sans-serif;
+}
 /* background border */
 .orange{
     background-color: orange;
@@ -209,11 +211,17 @@ a{
 }
 
 .column_sect5 h3{
-    font-size: 20px ;
+    font-size: 25px ;
+    
 }
 
 .column_sect5 button{
     margin: 20px 0;
+}
+.container_stars{
+    
+    top: 0;
+    width: 100%;
 }
 
 /* footer */
